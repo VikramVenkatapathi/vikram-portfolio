@@ -1,6 +1,7 @@
 import aws_ccp from "./images/AWS CCP badge.png";
 import tf_associate from "./images/TF-Accociate badge.png";
 import Button from "@material-ui/core/Button";
+import publication_logo from"./images/publication_logo.png";
 import Card from "react-bootstrap/Card";
 
 const Achievements = () => {
@@ -18,6 +19,13 @@ const Achievements = () => {
             cardText: "Issued on: <br/> August 30, 2023 ",
             btnText: "See Credential",
             btnUrl: "https://www.credly.com/badges/acdf0979-eb16-444c-b388-497efa036e59",
+        },
+        {
+            img: publication_logo,
+            cardTitle: "Water Quality Prediction using Statistical, Ensemble and Hybrid models",
+            cardText: "Date paper accepted: <br/> February 02, 2024 ",
+            btnText: "See Publication",
+            btnUrl: "https://journal.gnest.org/publication/gnest_05492",
         },
     ];
     return (
@@ -43,7 +51,7 @@ const Achievements = () => {
                             <Card
                                 style={{
                                     width: "16rem",
-                                    background: "#343a40",
+                                    background: "#9FD1C8",
                                     padding: "20px",
                                 }}
                                 className="text-center"
@@ -52,14 +60,14 @@ const Achievements = () => {
                                 <Card.Body>
                                     <Card.Title
                                         style={{
-                                            color: "rgba(255, 255, 255, 0.7)",
+                                            color: "rgba(0,0,0)",
                                             fontSize: "18px",
                                         }}
                                     >
                                         {data.cardTitle}
                                     </Card.Title>
                                     <br></br>
-                                    <Card.Text style={{ color: "#74808a" }}>
+                                    <Card.Text style={{ color: "#7e8890" }}>
                                         <div
                                             dangerouslySetInnerHTML={{
                                                 __html: data.cardText,

@@ -140,15 +140,15 @@ const Projects = () => {
                 <VerticalTimelineElement
                   key={i}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: "#343a40" }}
+                  contentStyle={{ background: "#9FD1C8" }}
                   dateClassName="timeline-date"
                   contentArrowStyle={{
-                    borderRight: "7px solid  rgb(33, 150, 243)",
+                    borderRight: "7px solid  #FFA500",
                   }}
                   icon={<CodeIcon />}
                   iconStyle={{
-                    background: "#0563bb",
-                    color: "#fff",
+                    background: "rgb(102, 252, 241)",
+                    color: "#000",
                   }}
                 >
                   <div className="projects-technologies">
@@ -160,7 +160,7 @@ const Projects = () => {
                     className="vertical-timeline-element-title"
                     style={{
                       fontSize: "12",
-                      color: "rgba(255, 255, 255, 0.8)",
+                      color: "#000000",
                     }}
                   >
                     {data.cardTitle}
@@ -169,7 +169,7 @@ const Projects = () => {
                     style={{
                       fontSize: "1em",
                       fontWeight: "350",
-                      color: "#74808a",
+                      color: "#000",
                     }}
                   >
                     {data.cardDetailedText}
@@ -200,14 +200,15 @@ const Projects = () => {
                     <IconButton aria-label="add">
                       <AddIcon
                         style={{
-                          color: "#fff",
+                          // background: "rgb(102, 252, 241)",
+                          color: "#000",
                           marginTop: "0.1px",
                         }}
                       />
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "rgb(102, 252, 241)",
                     color: "#fff",
                   }}
                 />
@@ -220,14 +221,14 @@ const Projects = () => {
                     <IconButton aria-label="add">
                       <RemoveIcon
                         style={{
-                          color: "#fff",
+                          color: "#000",
                           marginTop: "0.1px",
                         }}
                       />
                     </IconButton>
                   }
                   iconStyle={{
-                    background: "#0563bb",
+                    background: "rgb(102, 252, 241)",
                     color: "#fff",
                   }}
                 />

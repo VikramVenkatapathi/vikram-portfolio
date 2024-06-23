@@ -1,0 +1,8 @@
+/* Override the background color of the icons in the navbar */
+.nav-link i {
+    background-color: rgb(102, 252, 241); /* Change this to your desired color */
+    border-radius: 50%;
+    padding: 18px;
+    color: black; /* Ensure the icon color contrasts well with the background */
+  }
+  

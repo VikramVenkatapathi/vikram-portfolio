@@ -61,7 +61,7 @@
 }
 
 .skill-card span {
-  color: #66fcf1;
+  color: rgb(102, 252, 241);
   display: block;
   margin-top: 5px; /* Reduce margin for text */
 }

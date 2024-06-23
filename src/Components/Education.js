@@ -50,15 +50,15 @@ const Education = () => {
                 <VerticalTimelineElement
                   key={i}
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: "#343a40" }}
+                  contentStyle={{ background: "#9FD1C8" }}
                   date={data.date}
                   dateClassName="timeline-date"
                   contentArrowStyle={{
-                    borderRight: "7px solid  rgb(33, 150, 243)",
+                    borderRight: "7px solid  #FFA500",
                   }}
                   iconStyle={{
-                    background: "#0563bb",
-                    color: "#fff",
+                    background: "rgb(102, 252, 241)",
+                    color: "#000",
                   }}
                   icon={<SchoolIcon />}
                 >
@@ -66,7 +66,7 @@ const Education = () => {
                     className="vertical-timeline-element-title"
                     style={{
                       fontSize: "14",
-                      color: "rgba(255, 255, 255, 0.8)",
+                      color: "#000000",
                     }}
                   >
                     {data.cardTitle}
@@ -97,7 +97,7 @@ const Education = () => {
                     style={{
                       fontSize: "1em",
                       fontWeight: "350",
-                      color: "#74808a",
+                      color: "#000000",
                     }}
                   >
                     {data.cardDetailedText}
@@ -106,8 +106,8 @@ const Education = () => {
               ))}
               <VerticalTimelineElement
                 iconStyle={{
-                  background: "#0563bb",
-                  color: "#fff",
+                  background: "rgb(102, 252, 241)",
+                  color: "#000",
                 }}
                 icon={<StarIcon />}
               />

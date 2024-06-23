@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "@material-ui/core/Button";
 import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
-
+import "../assets/css/hero.css";
 export default function Hero() {
   return (
     <section id="hero" class="d-flex flex-column justify-content-center">
@@ -18,9 +18,10 @@ export default function Hero() {
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Developer, Tabla Player, Gamer"
+                data-typed-items="Developer"
               >
                 <Typed
+                // className="typed-text"
                   strings={["Developer", "Culinary Enthusiast"]}
                   loop
                   typeSpeed={90}
@@ -32,17 +33,11 @@ export default function Hero() {
                   fadeOutDelay={200}
                   loopCount={0}
                   showCursor
-                  cursorChar="|"
+                  cursorChar="_"
                 />
               </span>
             </p>
             <div class="social-links">
-              {/* <a href="https://www.youtube.com/channel/UC8TXgNmZW2hMis074yGOTUQ">
-                <i class="bx bxl-youtube"></i>
-              </a> */}
-              {/* <a href="https://www.instagram.com/bhushan_borole_/">
-                <i class="bx bxl-instagram"></i>
-              </a> */}
               <a href="https://github.com/VikramVenkatapathi">
                 <i class="bx bxl-github"></i>
               </a>

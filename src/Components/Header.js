@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SchoolIcon from '@material-ui/icons/School';
 import '../assets/css/header.css'; // Ensure your CSS file is imported
 
@@ -131,10 +131,14 @@ class Header extends React.Component {
               </li>
               <li>
                 <a href="#education" className="nav-link scrollto d-flex justify-content-center">
-                  {/* <SchoolIcon /> */}
                   <i className="bx bxs-school"></i>
-
                   <span>Education</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="nav-link scrollto d-flex justify-content-center">
+                  <i className="bx bxs-contact"></i>
+                  <span>Contact</span>
                 </a>
               </li>
             </ul>

@@ -41,7 +41,7 @@
 }
 
 .skill-card {
-  background-color: #343a40;
+  background-color: #9FD1C8;
   border-radius: 10px;
   padding: 10px; /* Reduce padding to make cards smaller */
   text-align: center;
@@ -61,7 +61,7 @@
 }
 
 .skill-card span {
-  color: rgb(102, 252, 241);
+  color: rgb(0, 0, 0);
   display: block;
   margin-top: 5px; /* Reduce margin for text */
 }

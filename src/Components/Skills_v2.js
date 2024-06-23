@@ -49,7 +49,6 @@ export default function Skills_v2() {
         { name: "Docker", icon: DockerIcon },
         { name: "K8s", icon: K8sIcon },
         { name: "Terraform", icon: TerraformIcon },
-        { name: "React.js", icon: ReactIcon },
         { name: "Serverless", icon: ServerlessIcon },
         { name: "Flask", icon: FlaskIcon },
         { name: "JIRA", icon: JiraIcon },

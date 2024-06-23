@@ -36,7 +36,7 @@ function Contact() {
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2 style={{ fontWeight: "bold", color: "rgba(255, 255, 255, 0.8)" }}>
-            Get in Touch
+          Contact
           </h2>
         </div>
         <div id="contact-form">
